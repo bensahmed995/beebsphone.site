@@ -5,7 +5,7 @@ body {
     line-height: 1.6;
     color: #333;
     /* Fond d’écran ajouté */
-    background: url("A2A411B1-6084-4141-B773-8AA38698B04B.jpeg") no-repeat center/cover fixed;
+    background-color: #ccc; /*gris clair*/
 }
 
 /* Header */
@@ -158,4 +158,5 @@ footer {
     font-weight: bold;
 
 }
+
 
