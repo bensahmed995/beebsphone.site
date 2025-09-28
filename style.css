@@ -5,7 +5,7 @@ body {
     line-height: 1.6;
     color: #333;
     /* Fond d’écran ajouté */
-    background: url("8AA38698B04B.jpeg") no-repeat center/cover fixed;
+    background: url("ecran-casse.webp") no-repeat center/cover fixed;
 }
 
 /* Header */
@@ -158,3 +158,4 @@ footer {
     font-weight: bold;
 
 }
+
