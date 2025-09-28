@@ -1,0 +1,159 @@
+/* Style global */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    /* Fond d’écran ajouté */
+    background: url("A2A411B1-6084-4141-B773-8AA38698B04B.jpeg") no-repeat center/cover fixed;
+}
+
+/* Header */
+header {
+    background: #222;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero (accueil) */
+.hero {
+    background: rgba(0,0,0,0.6);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h2 {
+    font-size: 2em;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #ff6600;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background: #e65c00;
+}
+
+/* Services */
+.services {
+    padding: 50px 20px;
+    text-align: center;
+
+    /* Ajout fond d'écran */
+    background: linear-gradient(rgba(252, 251, 251, 0.6), rgba(61, 47, 47, 0.6)),
+                url("images/ecran-casse.webp") no-repeat center/cover;
+    color: white; /* Texte en blanc pour bien ressortir */
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #ffffff; /* Encadré blanc par-dessus */
+    color: #333; /* Texte en noir dans les cartes */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    width: 250px;
+}
+
+.service-img img {
+    margin-top: 20px;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+/* Vidéos */
+.videos {
+    padding: 50px 20px;
+    text-align: center;
+    background: rgba(0,0,0,0.7);
+    color: white;
+}
+
+.videos video {
+    width: 80%;
+    max-width: 600px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.yt-video {
+    margin-top: 20px;
+}
+
+/* About */
+.about {
+    padding: 50px 20px;
+    background: #f1f1f1;
+    text-align: center;
+}
+
+/* Contact */
+.contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 50px;
+    margin-right: 10px;
+}
+
+.site-title {
+    font-size: 24px;
+    font-weight: bold;
+}
